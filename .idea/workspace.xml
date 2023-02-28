@@ -9,13 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9228ee0e-c507-4284-8b3c-eef24597de09" name="Changes" comment="Hello world">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/config/SpringConfig.java" afterDir="false" />
+    <list default="true" id="9228ee0e-c507-4284-8b3c-eef24597de09" name="Changes" comment="Config with java code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/controllers/FirstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/controllers/SecondController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/second/exit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContextMVC.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello_world.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -50,13 +54,16 @@
     </option>
   </component>
   <component name="ProjectId" id="2MEd1qjZrjgYfGWJ8hAXohnLcZR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -170,7 +177,8 @@
       <updated>1677336463996</updated>
       <workItem from="1677336465084" duration="1015000" />
       <workItem from="1677338758367" duration="2179000" />
-      <workItem from="1677426640607" duration="2919000" />
+      <workItem from="1677426640607" duration="2966000" />
+      <workItem from="1677598678813" duration="2261000" />
     </task>
     <task id="LOCAL-00001" summary="Hello world">
       <created>1677426720172</created>
@@ -179,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677426720172</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Config with java code">
+      <created>1677450882573</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677450882573</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +202,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello world" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hello world" />
+    <MESSAGE value="Config with java code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Config with java code" />
   </component>
 </project>
