@@ -26,8 +26,9 @@ public class FirstController {
     {
         return "first/goodbye";
     }
+
     @GetMapping("/calculator")
-    public String calculator(@RequestParam(value = "a" , required = false) Integer a , @RequestParam(value = "b" , required = false) Integer b , @RequestParam(value = "command" , required = false) String command, Model model)
+    public String calculator(@RequestParam(value = "a" , required = false) Integer a , @RequestParam(value = "b" , required = false) Integer b , @RequestParam(value = "command" , required = false) String command, Model model) //?a=5&b=3&command=multiplication - into url
     {
         if(command != null) {
             switch (command) {
