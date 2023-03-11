@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"    xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>New person</title>
+</head>
+<body>
+
+
+<form th:method="POST"  th:action="@{/people}"  th:object="${person}">    <!--1) форма будет посылать данные  на адрес, который указан после @
+                                                                      2) в object передается объект под ключом person из newPerson,  для этого объекта и создается форма-->
+  <label for="name" > Enter name: </label>
+        <input type="text" th:field="*{name}" id="name"/>  <!--тип вводимых значений - текст, записывается он в поле name(th:field="*{name}") -->
+  <br/>
+  <input type="submit" value="Create"/>
+</form>
+
+
+</body>
+</html>
