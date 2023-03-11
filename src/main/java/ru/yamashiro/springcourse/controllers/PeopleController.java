@@ -34,14 +34,13 @@ public class PeopleController {
     }
 
     @GetMapping("/new")
-    public String newPerson(Model model)
+    public String newPerson(@ModelAttribute("person") Person person)  // тоже самое, что и ниже, но в данном случае создастся пустой объект, тк никаких параметров не будет получено и этот объект будет помещен в модель (что нам и и надо)
     {
-        model.addAttribute("person" , new Person());
         return "people/new";
     }
 
     @PostMapping()
-    public String create(@ModelAttribute("person") Person person)
+    public String create(@ModelAttribute("person") Person person)   //@ModelAttribute("person") создает объект, считывает данные из post запроса и помещает их в объект, потом кладет наш объект сразу в модель
     {
         personDAO.save(person);
         return "redirect:/people"; // переходим на страницу /people
