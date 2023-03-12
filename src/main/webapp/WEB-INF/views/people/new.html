@@ -9,10 +9,23 @@
 
 <form th:method="POST"  th:action="@{/people}"  th:object="${person}">    <!--1) форма будет посылать данные  на адрес, который указан после @
                                                                       2) в object передается объект под ключом person из newPerson,  для этого объекта и создается форма-->
-  <label for="name" > Enter name: </label>
-        <input type="text" th:field="*{name}" id="name"/>  <!--тип вводимых значений - текст, записывается он в поле name(th:field="*{name}") -->
-  <br/>
-  <input type="submit" value="Create"/>
+    <label for="name" > Enter name: </label>
+    <input type="text" th:field="*{name}" id="name"/>  <!--тип вводимых значений - текст, записывается он в поле name(th:field="*{name}") -->
+    <div  style="color:darkred" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name error</div>  <!-- th:if - условие if, #fields.hasErrors('name') получаем доступ ко всем полям и проверям поле name на наличие ошибок и если оно есть, то эта строка будет показываться и будет вставлено то сообщение об ошибке, которое мы прописали в валидации-->
+    <br/>
+
+
+    <label for="age">Enter age: </label>
+    <input type="text" th:field="*{age}" id="age"/>
+    <div style="color:darkred" th:if="${#fields.hasErrors('age')}" th:errors="*{age}">Age error</div>
+    <br/>
+
+    <label for="email">Enter email: </label>
+    <input type="text" th:field="*{email}" id="email"/>
+    <div style="color:darkred" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email error</div>
+    <br/>
+
+    <input type="submit" value="Create!"/>
 </form>
 
 

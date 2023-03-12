@@ -7,7 +7,8 @@
 <body>
 
 <div th:each="person : ${people}">  <!--цикл for -->
-  <a ер th:href="@{/people/{id}(id=${person.getId()})}"  th:text="${person.getName()}">user</a> <!-- 1) для каждого user-а будет своя ссылка с переходом на страницу /people/его id , которое мы получаем getter-методом
+  <a th:href="@{/people/{id}(id=${person.getId()})}"
+     th:text="${person.getName()+ ', ' + person.getAge()}">user</a><!-- 1) для каждого user-а будет своя ссылка с переходом на страницу /people/его id , которое мы получаем getter-методом
                                                                                                      2)будем использовать getter  у нашего класса, чтобы user изменялся на имя объекта -->
 </div>
 
