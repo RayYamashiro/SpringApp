@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"   xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Update person</title>
+</head>
+<body>
+
+<form th:method="PATCH"  th:action="@{/people/{id}(id=${person.getId()})}"  th:object="${person}">    <!--1) Patch должен всегда идти с thymeleaf
+                                                                      2) данные с этой формы будут посылаться на адрес /people/{id}, где id - id нашего person -->
+  <label for="name" > Enter name: </label>
+  <input type="text" th:field="*{name}" id="name"/>  <!-- тип вводимых значений - текст, записывается он в поле name(th:field="*{name}") -->
+  <br/>
+  <input type="submit" value="Update"/>
+</form>
+
+</body>
+</html>
