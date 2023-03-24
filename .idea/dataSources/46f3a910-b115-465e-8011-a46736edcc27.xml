@@ -3,17 +3,9 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.45">
     <root id="1">
       <DateStyle>ymd</DateStyle>
-      <Grants>1||-9223372036854775808|c|G
-1||10|c|G
-1||10|C|G
-1||10|T|G
-4||-9223372036854775808|c|G
-4||10|c|G
-4||10|C|G
-4||10|T|G</Grants>
-      <IntrospectionStateNumber>752</IntrospectionStateNumber>
+      <IntrospectionStateNumber>756</IntrospectionStateNumber>
       <ServerVersion>15.2</ServerVersion>
-      <StartupTime>1678988491</StartupTime>
+      <StartupTime>1679592314</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -55,14 +47,14 @@ false Africa/Blantyre
 false Africa/Brazzaville
 false Africa/Bujumbura
 false Africa/Cairo
-false Africa/Casablanca
+true Africa/Casablanca
 false Africa/Ceuta
 false Africa/Conakry
 false Africa/Dakar
 false Africa/Dar_es_Salaam
 false Africa/Djibouti
 false Africa/Douala
-false Africa/El_Aaiun
+true Africa/El_Aaiun
 false Africa/Freetown
 false Africa/Gaborone
 false Africa/Harare
@@ -316,7 +308,7 @@ false Asia/Irkutsk
 false Asia/Istanbul
 false Asia/Jakarta
 false Asia/Jayapura
-false Asia/Jerusalem
+true Asia/Jerusalem
 false Asia/Kabul
 false Asia/Kamchatka
 false Asia/Karachi
@@ -359,7 +351,7 @@ false Asia/Taipei
 false Asia/Tashkent
 false Asia/Tbilisi
 false Asia/Tehran
-false Asia/Tel_Aviv
+true Asia/Tel_Aviv
 false Asia/Thimbu
 false Asia/Thimphu
 false Asia/Tokyo
@@ -611,7 +603,7 @@ false Indian/Mauritius
 false Indian/Mayotte
 false Indian/Reunion
 false Iran
-false Israel
+true Israel
 false JAYT
 false JST
 false Jamaica
@@ -809,7 +801,7 @@ false Zulu
 13183||10|C|G
 13183||-9223372036854775808|U|G
 13183||10|U|G</Grants>
-      <IntrospectionStateNumber>752</IntrospectionStateNumber>
+      <IntrospectionStateNumber>756</IntrospectionStateNumber>
       <ObjectId>16394</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4227,7 +4219,7 @@ false Zulu
     <schema id="262" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>752</IntrospectionStateNumber>
+      <IntrospectionStateNumber>756</IntrospectionStateNumber>
       <ObjectId>2200</ObjectId>
       <StateNumber>518</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>

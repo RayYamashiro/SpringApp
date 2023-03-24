@@ -9,14 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9228ee0e-c507-4284-8b3c-eef24597de09" name="Changes" comment="JDBC">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/dao/PersonMapper.java" afterDir="false" />
+    <list default="true" id="9228ee0e-c507-4284-8b3c-eef24597de09" name="Changes" comment="JDBC Template">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/46f3a910-b115-465e-8011-a46736edcc27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/46f3a910-b115-465e-8011-a46736edcc27.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/46f3a910-b115-465e-8011-a46736edcc27/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/46f3a910-b115-465e-8011-a46736edcc27/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +190,9 @@
       <workItem from="1678637773890" duration="6538000" />
       <workItem from="1678747447968" duration="4000" />
       <workItem from="1678870035894" duration="1867000" />
-      <workItem from="1679009982486" duration="2894000" />
+      <workItem from="1679009982486" duration="2961000" />
+      <workItem from="1679592346010" duration="2751000" />
+      <workItem from="1679618123881" duration="388000" />
     </task>
     <task id="LOCAL-00001" summary="Hello world">
       <created>1677426720172</created>
@@ -263,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678871268511</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="JDBC Template">
+      <created>1679014195846</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679014195846</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +313,7 @@
     <MESSAGE value="validation" />
     <MESSAGE value="add postgres db" />
     <MESSAGE value="JDBC" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC" />
+    <MESSAGE value="JDBC Template" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC Template" />
   </component>
 </project>
