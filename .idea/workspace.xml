@@ -10,15 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9228ee0e-c507-4284-8b3c-eef24597de09" name="Changes" comment="JDBC Template">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/controllers/BatchController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/util/PersonValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/46f3a910-b115-465e-8011-a46736edcc27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/46f3a910-b115-465e-8011-a46736edcc27.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/46f3a910-b115-465e-8011-a46736edcc27/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/46f3a910-b115-465e-8011-a46736edcc27/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yamashiro/springcourse/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +199,7 @@
       <workItem from="1679618123881" duration="388000" />
       <workItem from="1679753259790" duration="4549000" />
       <workItem from="1679762777430" duration="3984000" />
-      <workItem from="1679820443444" duration="2959000" />
+      <workItem from="1679820443444" duration="3767000" />
     </task>
     <task id="LOCAL-00001" summary="Hello world">
       <created>1677426720172</created>
@@ -283,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679014195846</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="JDBC Template">
+      <created>1679825016588</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679825016589</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
